@@ -1,7 +1,7 @@
 # Terms
 
 Repository(Repo): thư mục của dự án vd: Github_vn
-Branch: cành, cành mặc định của dự án là master
+Branch: cành, dự án có thể có nhiều cành,cành mặc định của dự án là master
 
 # Commands (lệnh)
 
@@ -19,7 +19,8 @@ Branch: cành, cành mặc định của dự án là master
   id commit+(HEAD->master)+ name commit
 - git checkout + idcommit : trở lại thời điểm ban đầu của 1 commit
 - git checkout + branchname: trở lại thời điểm hiện tại
-- git branch: thấy được cành hiện tại.
+- git branch: thấy được các cành hiện tại.
   Để thoát ra một câu lệnh git dùng phím: :q
   Phím tắt mở terminal: ctrl + ~
   Xóa các lệnh cũ: clear terminal
+  - git checkout -b {branch name} : tạo ra một branch mới
