@@ -13,8 +13,10 @@ Branch: cành, cành mặc định của dự án là master
 - git reset: làm cho file không chuẩn bị lưu (trái với git add)
 - git commit: chính thức lưu, đặc biệt cần ghi chú 1 chi tiết trước khi lưu.(cho biết quá trình dự án đang đến đâu hoặc cho biết đang làm feature gì)
   (git commit -m 'initial commit'): cam kết ban đầu hoặc thời điểm đầu tiên của dự án
-- git log: xem thông tin các commit
+- git log: xem thông tin, thời điểm các commit đã lưu
 - git log --oneline (thông tin gọn hơn git log)
+  Trình tự hiển thị kết quả:
+  id commit+(HEAD->master)+ name commit
 - git checkout + idcommit : trở lại thời điểm ban đầu của 1 commit
 - git checkout + branchname: trở lại thời điểm hiện tại
 - git branch: thấy được cành hiện tại.
