@@ -24,4 +24,9 @@ Branch: cành, dự án có thể có nhiều cành,cành mặc định của d�
   Phím tắt mở terminal: ctrl + ~
   Xóa các lệnh cũ: clear terminal
   - git checkout -b {branch name} : tạo ra một branch mới
-  - git merge {tên brach muốn tổng hợp}
+    <<<<<<< HEAD
+  - # git merge {tên brach muốn tổng hợp}
+        Áp dụng của branch khác nhau phụ thuộc vào tình huống:sẽ có TH công ty sẽ không động tới master brand mà trong lúc lập trình thì chỉ lập trình trên branch khác như dev,..
+        Trên một dự án có nhiều chức năng khác nhau, mỗi chức năng sẽ chia ra cho một branch thì cần tổng hợp lại branch để hoàn thành dự án.
+        VD: đã tạo branch là dev. Tạo trang liên hệ contact.html
+        - git branch -d {branch name}
