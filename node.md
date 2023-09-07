@@ -2,6 +2,7 @@
 
 Repository(Repo): thư mục của dự án vd: Github_vn
 Branch: cành, dự án có thể có nhiều cành,cành mặc định của dự án là master
+Conflict (Xung đột):
 
 # Commands (lệnh)
 
