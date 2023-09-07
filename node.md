@@ -24,3 +24,4 @@ Branch: cành, dự án có thể có nhiều cành,cành mặc định của d�
   Phím tắt mở terminal: ctrl + ~
   Xóa các lệnh cũ: clear terminal
   - git checkout -b {branch name} : tạo ra một branch mới
+  - git merge {tên brach muốn tổng hợp}
